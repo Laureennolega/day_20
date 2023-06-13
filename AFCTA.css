@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.valley{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 188, 188);  
+   
+}
+.tariff-1{
+    background-color: rgb(21, 21, 54);
+    width: 350px;
+   padding: 20px 30px;
+    color: white;
+    display: flex;
+    
+    gap: 40px;
+   
+
+}
+.AFCTA-1{
+    background-color: rgb(72, 180, 72);
+    width: 400px;
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    
+    gap: 40px;
+    
+}
+.search-1{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content:right;
+    gap: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px; 
+}
+.mountain{
+    background-image: url('./afcfta_website_landing.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+
+
